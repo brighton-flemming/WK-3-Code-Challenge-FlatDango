@@ -1,0 +1,175 @@
+body,
+h1,
+h2 {
+    margin: auto;
+    padding: 25px, 50px, 75px;
+}
+
+body {
+    font-family: cursive;
+    background-color: gray;
+    color: aliceblue;
+    margin: auto;
+    padding: 25px, 50px, 75px;
+    text-align: center;
+}
+
+header {
+    background-color: silver;
+    color: black;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+
+main {
+    padding: 25px, 50px, 75px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.movie-listings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.movie-poster {
+    .movie-poster {
+        width: 200px;
+        height: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.movie-details {
+    width: 15px;
+    height: 20px;
+}
+
+.movie-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.movie-time {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+
+
+
+.ticket-button {
+    background-color: silver;
+    color: black;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.sold-out {
+    background-color: rgb(53, 53, 53);
+}
+
+.ticket-button:hover {
+    background-color: darkgray;
+}
+
+/* Style for movie listings section */
+#movie-listings {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-listing {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+}
+
+.movie-details {
+    margin-top: 10px;
+}
+
+.movie-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul.runtimes {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.runtimes li {
+    margin-bottom: 5px;
+}
+
+/* Style for movie details section */
+#movie-details {
+    margin-top: 20px;
+}
+
+#movie-details img {
+    max-width: 300px;
+    height: auto;
+}
+
+#movie-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: solid;
+    box-shadow: black;
+    background-color: rgb(46, 44, 44);
+}
+
+#movie-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#movie-details .sold-out {
+    color: aliceblue
+}
+
+/* Style for movie menu */
+#films {
+    list-style-type: none;
+    padding: 0;
+}
+
+#films li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#films li.film-item {
+    font-weight: bold;
+}
+
+#films li.sold-out {
+    color: red;
+}
